@@ -1,1 +1,1 @@
-This app allows user to generate a password
+This app allows user to generate a password.
