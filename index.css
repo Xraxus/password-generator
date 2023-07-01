@@ -38,6 +38,7 @@ input[type=number]{
     color: #f5f3f3;
     font-size: 16px;
     border: 0;
+    border-radius: 3px;
     margin: 0 5px 0 0;
     appearance: none;
     -moz-appearance: textfield;
@@ -71,13 +72,18 @@ input::-webkit-inner-spin-button {
     padding: 9px 17px; 
     text-align: center;
     border: 0;
+    border-radius: 3px;
     margin: 20px auto 30px;
     color: #f5f3f3;
     font-weight: bold;
 }
 
+#generate-btn:hover{
+    background: #1a6de0; 
+}
 #generated-password1, #generated-password2{
     text-align: center;
+    white-space: nowrap;
     min-width: 150px;
     max-width: 30vw;
     min-height: 25px;
